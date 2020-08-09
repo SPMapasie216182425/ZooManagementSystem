@@ -3,6 +3,7 @@ public class Cat extends Animal {
     private String food;
 
     public Cat(){
+
         super();
     }
     public Cat(int age, String name, double height, String color, String food){
