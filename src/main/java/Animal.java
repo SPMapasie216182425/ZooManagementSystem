@@ -55,21 +55,13 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "Animal{" +
+        return "Animal" + " " +
                 "age=" + age +
                 ", name='" + name + '\'' +
                 ", height=" + height +
-                ", color='" + color + '\'' +
-                '}';
+                ", color='" + color + " ";
     }
 
-    public static void main(String[] args) {
-    Animal c = new Cat(3, "Mthura", 1.2, "White", "Tuna");
-    Animal d = new Dog(6, "dillon", 0.7, "green", "TBones");
-    Animal h = new Horse(4, "Mlu", 1.5, "Brown", "Grass");
-
-    System.out.print("Cat="+ c.toString() +"\n" +"Dog=" + d.toString() +"\n"+ "Horse="+ h.toString());
-    }
 }
 
 

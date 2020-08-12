@@ -7,11 +7,13 @@ public class Lion extends Animal {
     }
 
     public Lion(int age, String name, double height, String color, String sex) {
+        super(age, name, height, color);
         this.sex = sex;
 
     }
 
     public String getSex() {
+
         return sex;
     }
 
@@ -22,8 +24,8 @@ public class Lion extends Animal {
 
     @Override
     public String toString() {
-        return super.toString() +"Lion{" +
-                "sex='" + sex + '\'' +
-                '}';
+        return super.toString() +"Lion" +
+                "sex='" + sex + '\'';
+
     }
 }
