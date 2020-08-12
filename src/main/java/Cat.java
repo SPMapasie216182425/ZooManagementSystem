@@ -7,7 +7,7 @@ public class Cat extends Animal {
         super();
     }
     public Cat(int age, String name, double height, String color, String food){
-        super();
+        super(age, name, height, color);
         this.food = food;
     }
 
@@ -16,6 +16,7 @@ public class Cat extends Animal {
 
     @Override
     public String toString() {
+
         return super.toString() + "food=" + food;
     }
 }
